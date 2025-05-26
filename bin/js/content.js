@@ -270,7 +270,7 @@ export class Content_Handler {
 		const prevBtn = params['elemen'].querySelector('#prevBtn')
 		
 		let pencarian = document.getElementById('searchInput');
-		pencarian.value = params['cari']
+		pencarian.value = params?.cari ?? ""
 		let timeout = null;
 		pencarian.addEventListener('input', (event) => {
 			clearTimeout(timeout);

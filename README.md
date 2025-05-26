@@ -1,6 +1,13 @@
 
 # Stream_Anime
 
+<p align="center">
+  <img width="22%" src="preview/home.PNG"/>
+  <img width="22%" src="preview/mobile.PNG"/>
+  <img width="22%" src="preview/player_desktop.PNG"/>
+  <img width="22%" src="preview/player_mobile.PNG"/>
+</p>
+
 Panduan lengkap untuk menginstall dan menjalankan Kimin-Stream-Server di STB dengan OS Armbian64.
 
 Panduan ini dibuat agar siapapun bisa mengikuti dengan mudah.
@@ -58,7 +65,7 @@ Sumber aplikasi akan diunduh dan diekstrak.
       ```
   - Unduh file zip source code menggunakan wget:
       ```bash
-        wget https://github.com/namamu/Kimin-Stream-Server/archive/refs/heads/main.zip -O Kimin-Stream-Server.zip
+        wget https://codeload.github.com/staykimin/Stream_Anime/zip/refs/heads/kimin -O Stream_Anime-kimin.zip
       ```
   - Ekstrak zip:
       ```bash
@@ -66,7 +73,7 @@ Sumber aplikasi akan diunduh dan diekstrak.
       ```
   - Masuk ke folder aplikasi:
       ```bash
-        cd Kimin-Stream-Server-main
+        cd Stream_Anime-kimin
       ```
 ---
 
