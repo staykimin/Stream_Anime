@@ -1,0 +1,35 @@
+body {
+  background-color: #343a40;
+  color: #ffffff;
+  font-family: 'Arial', sans-serif;
+}
+.video-player {
+  background-color: #212529;
+  border-radius: .25rem;
+  padding: 10px;
+  position: relative;
+}
+.video-controls {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn-custom {
+  background-color: #6c757d;
+  border: none;
+  transition: background-color 0.3s;
+}
+.btn-custom:hover {
+  background-color: #5a6268;
+}
+.play-icon {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4rem;
+  color: #ffffff;
+  cursor: pointer;
+}

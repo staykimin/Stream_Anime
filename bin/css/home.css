@@ -1,0 +1,119 @@
+body {
+	background-color: #121212;
+	color: #fff;
+	font-family: 'Lato', sans-serif;
+}
+
+.pb-video-container {
+	padding: 40px 20px;
+	background: linear-gradient(to bottom, #1f1f1f, #2c2c2c);
+	border-radius: 8px;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.pb-video {
+	position: relative;
+	border-radius: 8px;
+	overflow: hidden;
+	background-color: #1f1f1f;
+	padding: 10px;
+	transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.pb-video img {
+	width: 100%;
+	height: 230px;
+	border-radius: 8px;
+	object-fit: cover;
+}
+
+.pb-video .episode-badge {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	background-color: #bb86fc;
+	color: #fff;
+	font-size: 0.9rem;
+	font-weight: bold;
+	padding: 5px 10px;
+	border-radius: 50px;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.pb-video .resolution-label {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	background-color: #03dac5;
+	color: #121212;
+	font-size: 0.8rem;
+	font-weight: bold;
+	padding: 5px 10px;
+	border-radius: 50px;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.pb-video:hover {
+	transform: scale(1.05);
+	box-shadow: 0px 6px 15px rgba(187, 134, 252, 0.5);
+}
+
+.pb-video:hover .label-warning {
+	white-space: normal;    /* Membiarkan teks membungkus pada hover */
+	overflow: visible;      /* Menampilkan seluruh teks saat hover */
+	text-overflow: unset;   /* Menghapus elipsis saat hover */
+	font-size: 1.2rem;      /* Menambah ukuran font saat hover */
+	background-color: #9c4dcc; /* Mengubah warna background saat hover */
+	color: #fff;            /* Mengubah warna teks saat hover */
+}
+
+.pb-row {
+	margin-bottom: 20px;
+}
+
+.label-warning {
+	background-color: #bb86fc;
+	color: #121212;
+	font-weight: bold;
+	border-radius: 4px;
+	text-align: center;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;	
+}
+
+
+h3 {
+	font-size: 2.5rem;
+	margin-bottom: 30px;
+	font-weight: bold;
+	color: #bb86fc;
+	text-align: center;
+}
+
+.search-bar {
+	margin-bottom: 30px;
+}
+
+.pagination {
+	justify-content: center;
+}
+
+#scrollTopBtn {
+	display: none;
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	z-index: 99;
+	background-color: #03dac5;
+	color: #121212;
+	border: none;
+	padding: 10px 15px;
+	border-radius: 50px;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+	cursor: pointer;
+}
+
+#scrollTopBtn:hover {
+	background-color: #029e87;
+}

@@ -1,0 +1,193 @@
+{
+	"modul": [
+	{
+		"folder": "",
+		"file": [],
+		"module": "argparse",
+		"function_name": "",
+		"alias": "parser"
+    },
+	{
+		"folder": "",
+		"file": [],
+		"module": "os",
+		"function_name": "",
+		"alias": ""
+    },
+	{
+		"folder": "",
+		"file": [],
+		"module": "json",
+		"function_name": "",
+		"alias": ""
+    },
+	{
+		"folder": "",
+		"file": [],
+		"module": "datetime",
+		"function_name": "",
+		"alias": ""
+    },
+	{
+		"folder": "",
+		"file": [],
+		"module": "base64",
+		"function_name": "",
+		"alias": ""
+    },
+	{
+		"folder": "",
+		"file": [],
+		"module": "random",
+		"function_name": "",
+		"alias": ""
+    },
+	{
+		"folder":"",
+		"file":[],
+		"module":"uuid",
+		"function_name":"",
+		"alias":""
+	},
+	{
+		"folder":"",
+		"file":[],
+		"module":"math",
+		"function_name":"",
+		"alias":""
+	},
+	{
+		"folder":"",
+		"file":[],
+		"module":"time",
+		"function_name":"",
+		"alias":""
+	},
+	{
+		"folder":"",
+		"file":[],
+		"module":"hashlib",
+		"function_name":"",
+		"alias":""
+	},
+	{
+		"folder": "",
+		"file": [],
+		"module": "colorama",
+		"function_name": "",
+		"alias": ""
+    },
+	{
+		"folder":"",
+		"file":[],
+		"module":"redis.asyncio",
+		"function_name":"Redis",
+		"alias":"redis"
+	},
+	{
+		"folder":"",
+		"file":[],
+		"module":"fastapi.responses",
+		"function_name":"FileResponse",
+		"alias":"file"
+	},
+	{
+		"folder":"",
+		"file":[],
+		"module":"fastapi.responses",
+		"function_name":"JSONResponse",
+		"alias":"f_json"
+	},
+	{
+		"folder":"",
+		"file":[],
+		"module":"fastapi.responses",
+		"function_name":"RedirectResponse",
+		"alias":"redirect"
+	},
+	{
+		"folder":"Utils",
+		"file":["Enkripsi", "enkripsi"],
+		"module":"Enkripsi_Async",
+		"function_name":"",
+		"alias":"enc"
+	},
+	{
+		"folder":"Utils",
+		"file":["Database", "redis"],
+		"module":"Redis_Async",
+		"function_name":"",
+		"alias":"db_redis"
+	},
+	{
+		"folder":"Utils",
+		"file":["Security", "v1"],
+		"module":"Security",
+		"function_name":"",
+		"alias":"secure_request"
+	},
+	{
+		"folder":"Utils",
+		"file":["Api", "api"],
+		"module":"API_Handler",
+		"function_name":"",
+		"alias":"api"
+	},
+	{
+		"folder":"",
+		"file":[],
+		"module":"fastapi.middleware.cors",
+		"function_name":"CORSMiddleware",
+		"alias":"middle"
+	},
+	{
+		"folder":"",
+		"file":[],
+		"module":"fastapi.staticfiles",
+		"function_name":"StaticFiles",
+		"alias":"static"
+	},
+	{
+		"folder":"",
+		"file":[],
+		"module":"fastapi",
+		"function_name":"HTTPException",
+		"alias":"404"
+	},
+	{
+		"folder":"",
+		"file":[],
+		"module":"fastapi.templating",
+		"function_name":"Jinja2Templates",
+		"alias":"template"
+	},
+	{
+		"folder":"",
+		"file":[],
+		"module":"fastapi",
+		"function_name":"FastAPI",
+		"alias":"FI"
+	},
+	{
+		"folder":"",
+		"file":[],
+		"module":"starlette.middleware.sessions",
+		"function_name":"SessionMiddleware",
+		"alias":"session"
+	},
+	{
+		"folder": "Utils",
+		"file": ["Extension", "Ext"],
+		"module": "Ext",
+		"function_name": "",
+		"alias": "ext"
+    },
+	{
+		"folder":"",
+		"file":[],
+		"module":"FastApi_J2S.core_server",
+		"function_name": "Set_Server",
+		"alias":"server"
+	}
+  ]
+}

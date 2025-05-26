@@ -1,0 +1,49 @@
+{
+    "system":{
+		"import_config":true,
+		"builder_log":false
+	},
+	"log":{
+		"show_log":true,
+		"path":"log",
+		"notif":{
+			"status":false,
+			"token":"<<token_bot_tele>>",
+			"id_account":"<<userid_bot_tele>>",
+			"static_text":"⚠️ Terjadi Error ‼️ \n\n"
+		}
+	},
+    "server": {
+	"base_path":"/mnt/Data_Server1/Data",
+        "debug": true,
+        "template_auto_reload": true,
+        "session_lifetime": false,
+		"https":false,
+		"ws_host":"<<url_ngrok>>",
+        "port": 5758,
+        "host": "0.0.0.0",
+        "secret_key": "Kimin-Streaming-Server",
+        "static_path": "bin",
+        "template_path": "tampilan"
+    },
+    "routes": {
+        "modul_name": "Routes.routes",
+        "class_name": "Routes",
+		"API":{
+			"url":"/api/{version}/{mode}",
+			"methods":["GET", "POST"],
+			"function": "API"
+		},
+		
+		"Player":{
+			"url":"/player/{path}",
+			"methods":["GET"],
+			"function": "Player"
+		},
+		"Home":{
+			"url":"/",
+			"methods":["GET"],
+			"function":"Home"
+		}
+	}
+}

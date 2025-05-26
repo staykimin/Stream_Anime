@@ -1,0 +1,12 @@
+{% extends 'base/base-home.html' %}
+
+{% block content %}
+<!-- Halaman pertama -->
+<div id="content"></div>
+<script>
+	var data = {{ data | tojson }};
+</script>
+
+<script src="/static/js/core.js"></script>
+
+{% endblock %}
