@@ -3,8 +3,8 @@
 
 <p align="center">
   <img width="22%" src="preview/home.PNG"/>
-  <img width="22%" src="preview/mobile.PNG"/>
   <img width="22%" src="preview/player_desktop.PNG"/>
+  <img width="22%" src="preview/mobile.PNG"/>
   <img width="22%" src="preview/player_mobile.PNG"/>
 </p>
 
