@@ -11,7 +11,7 @@
 	<img width="25%" src="preview/player_mobile.PNG"/>
 </p>
 
-Panduan lengkap untuk menginstall dan menjalankan Kimin-Stream-Server di STB dengan OS Armbian64.
+Panduan lengkap untuk menginstall dan menjalankan Kimin-Stream-Server di STB dengan OS Armbian64 Belum Termasuk Auto Download.
 
 Panduan ini dibuat agar siapapun bisa mengikuti dengan mudah.
 
