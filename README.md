@@ -2,10 +2,13 @@
 # Stream_Anime
 
 <p align="center">
-  <img width="22%" src="preview/home.PNG"/>
-  <img width="22%" src="preview/player_desktop.PNG"/>
-  <img width="22%" src="preview/mobile.PNG"/>
-  <img width="22%" src="preview/player_mobile.PNG"/>
+  <img width="50%" src="preview/home.PNG"/>
+  <img width="50%" src="preview/player_desktop.PNG"/>
+  
+</p>
+<p align="center">
+	<img width="50%" src="preview/mobile.PNG"/>
+	<img width="50%" src="preview/player_mobile.PNG"/>
 </p>
 
 Panduan lengkap untuk menginstall dan menjalankan Kimin-Stream-Server di STB dengan OS Armbian64.
